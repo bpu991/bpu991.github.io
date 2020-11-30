@@ -2751,6 +2751,10 @@ input, select, textarea {
 		border-top-color: rgba(0, 0, 0, 0.2);
 	}
 
+.button-section {
+	display: grid;
+	grid-template-columns: 0.2fr 1fr;
+}
 /* Actions */
 
 	ul.actions {
