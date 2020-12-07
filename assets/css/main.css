@@ -8610,3 +8610,61 @@ input, select, textarea {
 	width: 100px;
 }
 
+.skills-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.skills-1{
+	grid-column: 1/2;
+}
+
+.skills-2 {
+	grid-column: 2/3;
+}
+
+.skills-3{
+	grid-column: 3/4;
+}
+
+.skills-4{
+	grid-column: 4/5;
+}
+
+.skills-5{
+	grid-column: 5/6;
+}
+
+.skills-6{
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+.skills-7{
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+
+.skills-8{
+	grid-column: 3/4;
+	grid-row: 2/3;
+}
+
+.skills-9{
+	grid-column: 4/5;
+	grid-row: 2/3;
+}
+
+.skills-10{
+	grid-column: 5/6;
+	grid-row: 2/3;
+}
+
+.skills-container-images {
+	grid-row: 1/2;
+}
+
+.skills-container-names {
+	grid-row: 2/3;
+	align-items: center;
+}
